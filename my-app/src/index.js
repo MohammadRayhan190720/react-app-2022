@@ -26,11 +26,29 @@ root.render(
     {/* <h1 style={{color : "green",backgroundColor: "gray",textAlign:"center"}}>TODO APP</h1>,  inline style */}
     {/* <h1 style = {headingStyle}>TODO APP</h1>  */}
     <h1 className="headingStyle">TODO APP</h1>
-      <h3 className="titleStyle">{todoTitle}</h3>
-      <p className="descStyle">{todoDesc}</p>
-      <p className="footer">
-        {currentday + "/" + currentMonth + "/" + currentYear}
-      </p>
+    <div className="cardContainer">
+      <div className="card">
+        <h3 className="titleStyle">{todoTitle}</h3>
+        <p className="descStyle">{todoDesc}</p>
+        <p className="footer">
+          {currentday + "/" + currentMonth + "/" + currentYear}
+        </p>
+      </div>
+      <div className="card">
+        <h3 className="titleStyle">{todoTitle}</h3>
+        <p className="descStyle">{todoDesc}</p>
+        <p className="footer">
+          {currentday + "/" + currentMonth + "/" + currentYear}
+        </p>
+      </div>
+      <div className="card">
+        <h3 className="titleStyle">{todoTitle}</h3>
+        <p className="descStyle">{todoDesc}</p>
+        <p className="footer">
+          {currentday + "/" + currentMonth + "/" + currentYear}
+        </p>
+      </div>
+    </div>
   </div>
 );
 
