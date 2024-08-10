@@ -30,3 +30,6 @@ follow the instraction
 - so we can make component in src folder and make a folder like component and inside the folder we creat componentfile and use ( export deafult filename) so that we use the file anywhere 
 - we inport the component file in index.js so that we can use it
 - make very simple we make a file App.js and all work in there and Import the file form index.js
+
+###  Props and destructuring
+- if i want to pass value in component then use props
