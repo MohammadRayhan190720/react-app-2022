@@ -1,7 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .headingStyle{
   background-color: purple;
   padding: 10px;
   font-size: 3rem;
   text-align: center;
   color: white;
+}
+.card{
+  background-color: cadetblue;
+  width: 400px;
+  margin: 20px;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 2px 4px 4px gray;
+}
+.titleStyle{
+  text-align: center;
+  margin-top: 5px;
+  font-size: 2rem;
+}
+.descStyle{
+  text-align: justify;
+  margin-top: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.footer{
+  text-align: center;
+  font-style: italic;
+  margin-top: 5px;
 }

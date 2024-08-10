@@ -10,9 +10,6 @@
   text-align: center;
   color: white;
 }
-.cardContainer{
-  display: flex;
-}
 .card{
   background-color: cadetblue;
   width: 400px;
