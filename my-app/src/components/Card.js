@@ -15,7 +15,7 @@ function Card(props) {
       <p className="descStyle">{todoDesc}</p> */}
       {/* <h3 className="titleStyle">{props.titleText}</h3>
       <p className="descStyle">{props.descText}</p> */}
-      <h3 className="titleStyle">{titleText}</h3>    after desctructing not use props.
+      <h3 className="titleStyle">{titleText}</h3>
       <p className="descStyle">{descText}</p>
       <p className="footer">
         {currentday + "/" + currentMonth + "/" + currentYear}
