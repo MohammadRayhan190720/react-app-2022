@@ -1,0 +1,29 @@
+{
+
+"users" : [
+  {
+    "fullName": "Rayhan",
+    "age": 24,
+    "phone" : [
+      { "home": "01723408269"},
+      { "office": "01723408523"}
+    ]
+  },
+  {
+    "fullName": "Tamanna",
+    "age": 18,
+    "phone" : [
+      { "home": "017666365862"},
+      { "office": "017234085258"}
+    ]
+  },
+  {
+    "fullName": "Jakia",
+    "age": 14,
+    "phone" : [
+      { "home": "0172353693"},
+      { "office": "01748751235"}
+    ]
+  }
+]
+}

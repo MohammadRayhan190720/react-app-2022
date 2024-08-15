@@ -1,6 +1,7 @@
 import React from "react";
-import Card from "./components/Card";
-import data from "./data.json";
+// import Card from "./components/Card";
+// import data from "./data.json";
+import data1 from "./nested-data.json";
 
 
 
@@ -19,10 +20,12 @@ function App (){
   //  items = data.map((item, index) => <Card key={index} titleText={item.title} descText={item.description} />);
 
   // mapping data with a unique id
-  let items = [];
-  items = data.map((item,index) => (
-    < Card key={index} titleText={item.title} descText={item.description} />
-  ));
+  // let items = [];
+  // items = data.map((item,index) => (
+  //   < Card key={index} titleText={item.title} descText={item.description} />
+  // ));
+
+  // nested mapping
 
   return (
     <div>
@@ -30,12 +33,14 @@ function App (){
                  <Card titleText = "Bangladesh 2.0" descText="I love My Country" />
                  <Card titleText = "Bangladesh 2.0" descText="I love My Country" />
                  <Card titleText = "Bangladesh 2.0" descText="I love My Country" /> */}
-      <h1 className="headingStyle">TODO APP</h1>
+      {/* <h1 className="headingStyle">TODO APP</h1> */}
       {/* <Card titleText = {data[0].title} descText = {data[0].description} />
                  <Card titleText = {data[1].title} descText = {data[1].description} />
                  <Card titleText = {data[2].title} descText = {data[2].description} />
                  <Card titleText = {data[3].title} descText = {data[3].description} /> */}
-      {items}
+      {/* {items} */}
+      
+      <h1>Nested List</h1>
     </div>
   );
 }
