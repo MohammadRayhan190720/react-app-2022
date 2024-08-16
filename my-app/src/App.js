@@ -1,8 +1,7 @@
 import React from "react";
 // import Card from "./components/Card";
 // import data from "./data.json";
-import data1 from "./nested-data.json";
-
+ 
 
 
 
@@ -25,7 +24,33 @@ function App (){
   //   < Card key={index} titleText={item.title} descText={item.description} />
   // ));
 
-  // nested mapping
+  // nested data
+   const users = [
+     {
+       fullName: "Mohammad Rayhan",
+       age: 24,
+       phones: [
+        { home: "017258496135" }, 
+        { office: "017582365859" }
+      ]
+     },
+     {
+       fullName: "Tamanna",
+       age: 18,
+       phones: [
+        { home: "017258496587" }, 
+        { office: "017582365123" }
+      ]
+     },
+     {
+       fullName: "Jakiya",
+       age: 14,
+       phones: [
+        { home: "017258496879" }, 
+        { office: "017582365569" }
+      ]
+     }
+   ];
 
   return (
     <div>
@@ -39,8 +64,25 @@ function App (){
                  <Card titleText = {data[2].title} descText = {data[2].description} />
                  <Card titleText = {data[3].title} descText = {data[3].description} /> */}
       {/* {items} */}
-      
-      <h1>Nested List</h1>
+
+      <h1>Nested maping</h1>
+      {users.map((user, index) => (
+        <article key={index}>
+          <h2>{user.fullName}</h2>
+          <p>{user.age}</p>
+          {
+           user.phones.map((phone, index) => (
+              <div key={index}>
+                <p>{phone.home}</p>
+                <p>{phone.office}</p>
+              </div>
+
+            )
+            )
+
+          }
+        </article>
+      ))}
     </div>
   );
 }
