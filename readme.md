@@ -33,3 +33,9 @@ follow the instraction
 
 ###  Props and destructuring
 - if i want to pass value in component then use props
+
+### React project setup
+- creat react app
+- setup eslint 
+- setup prettier
+- install react-app

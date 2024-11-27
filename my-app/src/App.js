@@ -1,6 +1,6 @@
 import React from "react";
-// import Card from "./components/Card";
-// import data from "./data.json";
+import Card from "./components/Card";
+import data from "./data.json";
  
 
 
@@ -25,32 +25,32 @@ function App (){
   // ));
 
   // nested data
-   const users = [
-     {
-       fullName: "Mohammad Rayhan",
-       age: 24,
-       phones: [
-        { home: "017258496135" }, 
-        { office: "017582365859" }
-      ]
-     },
-     {
-       fullName: "Tamanna",
-       age: 18,
-       phones: [
-        { home: "017258496587" }, 
-        { office: "017582365123" }
-      ]
-     },
-     {
-       fullName: "Jakiya",
-       age: 14,
-       phones: [
-        { home: "017258496879" }, 
-        { office: "017582365569" }
-      ]
-     }
-   ];
+  //  const users = [
+  //    {
+  //      fullName: "Mohammad Rayhan",
+  //      age: 24,
+  //      phones: [
+  //       { home: "017258496135" }, 
+  //       { office: "017582365859" }
+  //     ]
+  //    },
+  //    {
+  //      fullName: "Tamanna",
+  //      age: 18,
+  //      phones: [
+  //       { home: "017258496587" }, 
+  //       { office: "017582365123" }
+  //     ]
+  //    },
+  //    {
+  //      fullName: "Jakiya",
+  //      age: 14,
+  //      phones: [
+  //       { home: "017258496879" }, 
+  //       { office: "017582365569" }
+  //     ]
+  //    }
+  //  ];
 
   return (
     <div>
@@ -65,7 +65,7 @@ function App (){
                  <Card titleText = {data[3].title} descText = {data[3].description} /> */}
       {/* {items} */}
 
-      <h1>Nested maping</h1>
+      {/* <h1>Nested maping</h1>
       {users.map((user, index) => (
         <article key={index}>
           <h2>{user.fullName}</h2>
@@ -82,7 +82,7 @@ function App (){
 
           }
         </article>
-      ))}
+      ))} */}
     </div>
   );
 }
